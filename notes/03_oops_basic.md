@@ -159,4 +159,4 @@ print(str(book))   # Output: '1984' by George Orwell
 print(len(book))   # Output: 4
 ```
 
-By understanding and using these OOP principles, you can create modular, reusable, and maintainable code in Python.
+ 

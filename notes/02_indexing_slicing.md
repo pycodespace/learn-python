@@ -86,4 +86,11 @@ print(matrix[1:3])  # Output: [[4, 5, 6], [7, 8, 9]]
    print(text[::-1])  # Output: !dlroW ,olleH
    ```
 
-By understanding and using indexing and slicing effectively, you can manipulate sequences in Python with great flexibility.
+  list[start:] means all numbers greater than start uptil the range
+  list[:end] means all numbers less than end uptil the range
+  list[:] means all numbers within the range
+
+
+list = list(range(10)) # define a range of values 0
+print(list[0:9:2])  # 0, 2, 4, 6, 8  
+print(list[9:0:-2])  # 9, 7, 5, 3, 1
